@@ -7,7 +7,7 @@ Integrantes:
 - Xenia Carolina Sánchez Mancia, SM232984
 
 
-# Documentación de la API - Libreria
+# Documentación de la APIrest en PHP
 
 ## Descripción General
 Esta API permite gestionar usuarios y libros dentro de un sistema de librería. Incluye operaciones para crear, actualizar, eliminar y consultar tanto usuarios como libros.

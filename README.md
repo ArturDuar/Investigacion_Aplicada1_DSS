@@ -5,6 +5,7 @@ Integrantes:
 - Oscar Daniel Soto Jovel, SJ241841
 - Cristian Alexander Hernández Valiente, HV240081
 - Xenia Carolina Sánchez Mancia, SM232984
+- Salvador Enrique Delgado Peñate, DP240093
 
 
 # Documentación de la APIrest en PHP

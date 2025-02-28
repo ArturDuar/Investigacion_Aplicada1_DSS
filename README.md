@@ -146,7 +146,7 @@ Authorization: Bearer <tu_token>
 - Esta API sigue un estilo **REST**.
 - La autenticación es requerida para cualquier operación que no sea `login` o `listar libros`.
 - El proyecto utiliza `php-jwt` para gestionar tokens.
-- El archivo `libreria.sql` contiene la estructura de la base de datos requerida. Y que necesito ser ejecutan en phpMyAdmin al momento de desplegar la aplicación en Docker.
+- El archivo `libreria.sql` contiene la estructura de la base de datos requerida. Y que necesita ser ejecutada en phpMyAdmin al momento de desplegar la aplicación en Docker.
 
 ---
 

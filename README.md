@@ -15,6 +15,7 @@ Integrantes:
 Este archivo lo que hace es definir las imágenes que se utilizaran con Docker, en este caso una API REST implementada con lenguaje de PHP.
 
 Contenido de Dockerfile:
+
     •FROM php:8.2-apache:
         Usa una imagen de PHP 8.2 con apache para levantar el servidor web del API.
 
@@ -42,6 +43,7 @@ Contenido de Dockerfile:
 Este archivo esta definiendo el entorno de docker el cual será un multi-contenedor utilizando docker-compose eh incluye 3 servicios dentro que serían PHP, MySQL y phpmyadmin.
 
 Contenido docker-composel.yml:
+
     •version: '3.8'
         Especificamos la version del archivo de Docker Compose.
 
@@ -81,6 +83,7 @@ Contenido docker-composel.yml:
 En este archivo se define el despliegue en kubernetes para la aplicación PHP en los que se incluyen un Deployment, un Service y un HorizontalPodAutoscaler para gestionar la escalabilidad de la aplicación.
 
 Contenido deployment.yml:
+
     •Deployment:
     o	apiVersion: apps/v1: Esta especificando la version API de Kubernetes.
     o	kind: Deployment: Esta definiendo que es un recurso de tipo Deployment.

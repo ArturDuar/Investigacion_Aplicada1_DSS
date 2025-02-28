@@ -10,6 +10,11 @@ CREATE TABLE libro(
     edicion VARCHAR(10)
 );
 
+CREATE TABLE rol(
+    IDrol INT PRIMARY KEY AUTO_INCREMENT,
+    nombreRol VARCHAR(20)
+);
+
 CREATE TABLE usuario(
     IDusuario INT PRIMARY KEY AUTO_INCREMENT,
     nombreUsuario VARCHAR(50),
@@ -17,11 +22,6 @@ CREATE TABLE usuario(
     contrasennia VARCHAR(100),
     IDrol INT,
     CONSTRAINT usuarioRol FOREIGN KEY (IDrol) REFERENCES rol(IDrol)
-);
-
-CREATE TABLE rol(
-    IDrol INT PRIMARY KEY AUTO_INCREMENT,
-    nombreRol VARCHAR(20)
 );
 
 INSERT INTO rol (nombreRol) VALUES ('Administrador');

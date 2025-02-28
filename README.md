@@ -10,8 +10,8 @@ Integrantes:
 # Documentación de Docker
 
 ## Dockerfile
-1.Dockerfile
-Descripción:
+- 1.Dockerfile
+- Descripción:
 Este archivo lo que hace es definir las imágenes que se utilizaran con Docker, en este caso una API REST implementada con lenguaje de PHP.
 
 Contenido de Dockerfile:
@@ -37,8 +37,8 @@ Contenido de Dockerfile:
         Se inicia apache cuando el contenedor se este ejecutando y hace que apache se ejecute en primer plano.
 
 ## Docker Compose 
-2.docker-compose.yml
-Descripción:
+- 2.docker-compose.yml
+- Descripción:
 Este archivo esta definiendo el entorno de docker el cual será un multi-contenedor utilizando docker-compose eh incluye 3 servicios dentro que serían PHP, MySQL y phpmyadmin.
 
 Contenido docker-composel.yml:
@@ -76,8 +76,8 @@ Contenido docker-composel.yml:
     o	db_data: Define un volumen para que los datos que vayan a la base de datos persistan.
 
 ## Ejecución de los contenedores
-3.deployment.yml
-Descripción:
+- 3.deployment.yml
+- Descripción:
 En este archivo se define el despliegue en kubernetes para la aplicación PHP en los que se incluyen un Deployment, un Service y un HorizontalPodAutoscaler para gestionar la escalabilidad de la aplicación.
 
 Contenido deployment.yml:

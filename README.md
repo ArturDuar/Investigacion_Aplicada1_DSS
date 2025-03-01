@@ -153,7 +153,7 @@ Para obtener un token, primero debes iniciar sesión en el endpoint de login.
 |--|--|--|
 | `POST` | `/usuarios/login` | Iniciar sesión y obtener un JWT |
 | `GET` | `/usuarios` | Listar todos los usuarios (requiere autenticación) |
-| `GET` | `/usuarios/{id}` | Listar todos los usuarios (requiere autenticación) |
+| `GET` | `/usuarios/{id}` | Listar un usuario por su id (requiere autenticación) |
 | `POST` | `/usuarios` | Crear un nuevo usuario (requiere autenticación)|
 | `PUT` | `/usuarios/{id}` | Actualizar información de un usuario (requiere autenticación)|
 | `DELETE` | `/usuarios/{id}` | Eliminar un usuario (requiere autenticación)|
@@ -163,7 +163,7 @@ Para obtener un token, primero debes iniciar sesión en el endpoint de login.
 | Método | Endpoint | Descripción |
 |--|--|--|
 | `GET` | `/libros` | Listar todos los libros |
-| `GET` | `/libros/{id}` | Listar todos los libros |
+| `GET` | `/libros/{id}` | Listar un libro por su id |
 | `POST` | `/libros` | Crear un nuevo libro (requiere autenticación)|
 | `PUT` | `/libros/{id}` | Actualizar información de un libro (requiere autenticación)|
 | `DELETE` | `/libros/{id}` | Eliminar un libro (requiere autenticación)|
